@@ -1,0 +1,43 @@
+.item-container {
+  float:left;
+
+    text-align: center;
+  background-color: aliceblue;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.item-container:hover {
+  cursor: pointer;
+}
+
+.item-container i:before {
+  font-size: 4em;
+}
+
+.item-container p, .item-container h3 {
+  text-align: center;
+}
+
+.item-container h3 {
+  display: none;
+}
+
+.search-box {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-box input {
+  border: 1px solid #ace;
+  padding: 10px;
+  max-width: 400px;
+  width: 80%;
+  font-size: 20px;
+}
+
+#noResults {
+  text-align: center;
+  font-size: 20px;
+  font-family: Roboto, Helvetica, Verdana;
+}
